@@ -5,17 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@700&display=swap" rel="stylesheet">
   <title>Daybreak!</title>
 </head>
 <body>
-  <nav>
-    <img src="images/logo-purple.png">
+  <nav class="blackBG">
+    <img class="logo" src="images/logo-white.png">
     <ul class="menu">
-      <li><a style="color: #fff" href="#">Home</a></li>
-      <li><a href="#">Join</a></li>
-      <li><a href="#">Calender</a></li>
-      <li><a href="#">About</a></li>
+      <li><a class="white" href="index.html">HOME</a></li>
+      <li><a class="purple" href="join.html">JOIN</a></li>
+      <li><a class="purple" href="calendar.html">CALENDAR</a></li>
+      <li><a class="purple" href="#">ABOUT</a></li>
     </ul>     
     <div class="social">
       <img src="images/insta.png">
@@ -24,27 +24,80 @@
   </nav>
 
   <section id="section-title">
-    <img id="star1" src="images/star-white.png">
-    <h1>DAYBREAK</h1>
-    <h2>SCU'S K-POP COVER DANCE CREW</h2>
-    <p>Daybreak was founded in 2019 by passionate SCU students who wanted to create a community that brings together people who enjoy listening and dancing to K-Pop. We host many dance workshops, social events, and film covers.</p>
+    <div id="intro">
+      <h1>DAYBREAK</h1>
+      <h2>SCU'S K-POP COVER DANCE CREW</h2>
+      <h3>BRINGING PEOPLE TOGETHER THROUGH LOVE OF KPOP AND DANCE SINCE 2019.</h3>
+    </div>
+    <img id="star1" src="images/star.png">
+    <img id="star2" src="images/star.png">
   </section>
   
-  <section id="section-upcoming">
-    <h2>Upcoming Events</h2>
-    <div id="events">
-      <img src="images/event1.png">
-      <img src="images/event2.png">
+  <section id="section-about">
+    <h3 id="discover">LEARN ABOUT DAYBREAK</h3>
+    <img class="line" src="images/line.png">
+    <div id="who-are-we">
+      <h1>WHO ARE WE?</h1>
+      <p>DAYBREAK IS A SANTA CLARA UNIVERSITY BASED KPOP COVER DANCE CREW AND CLUB FOUNDED IN 2019. IT IS A GROWING COMMUNITY THAT BRINGS TOGETHER PEOPLE WITH THE SHARED LOVE FOR KPOP AND DANCE.</p>
+    </div>
+    <div>
+      <h2>OUR MISSION</h2>
+      <p>OUR MISSION, AS DAYBREAK, IS TO BUILD A DIVERSE COMMUNITY CENTERED AROUND THE APPRECIATION AND LOVE FOR KPOP THROUGH DANCE. AS A CREW, WE LOOK FORWARD TO PROMOTING A POSITIVE ENVIRONMENT WHERE WE WILL CULTIVATE TEAMWORK, SELF-CONFIDENCE, AND PASSION FOR DANCE.</p>
+    </div>
+    <div>
+      <h3>WHAT WE DO</h3>
+      <p>DAYBREAK HOST DANCE WORKSHOPS, SOCIAL EVENTS, AND END-OF-YEAR SHOWCASE. OUR DANCE CREW FILMS COVERS AND PERFORMS AT VARIOUS EVENTS.</p>
+    </div>  
+  </section>
+
+  <section id="section-discover">
+    <h1>DISCOVER DAYBREAK</h1>
+    <div id="columns">
+      <div>
+        <button>LATEST KPOP COVER</button>
+        <button>LATEST PERFORMANCE</button>
+        <button>TIKTOIK</button>
+      </div>
+      <div>
+        <img src="images/performance.JPEG">
+      </div>
     </div>
   </section>
 
-  <section class="section-button">
-    <button class="purple-white">Join Our Newsletter!</button>
+  <section id="section-join">
+    <div class="banner">
+      <p>DANCE WORKSHOP</p>
+      <p>SOCIAL EVENTS</p>
+      <P>COMMUNITY</P>
+      <P>FILM COVERS</P>
+      <P>PERFORMANCES</P>
+      <P>DANCE</P>
+      <P>KPOP</P>
+    </div>
+    <div class="column-join">
+      <h1>JOIN US</h1>
+      <div class="newsletter">
+        <h2>OUR NEWSLETTER</h2>
+        <input type="text" placeholder="NAME">
+        <input type="text" placeholder="SCU EMAIL">
+        <button class="subscribe-button">SUBSCRIBE</button>
+        <button id="event-button">EVENTS & COVER SIGN UP</button>
+      </div>
+    </div>
+    <div class="banner">
+      <p>DANCE WORKSHOP</p>
+      <p>SOCIAL EVENTS</p>
+      <P>COMMUNITY</P>
+      <P>FILM COVERS</P>
+      <P>PERFORMANCES</P>
+      <P>DANCE</P>
+      <P>KPOP</P>
+    </div>
   </section>
 
-  <footer class="purple">
-    <img class="white" src="images/logo-white.png">
-    <p>Daybreak since 2019.</p>
+  <footer>
+    <img class="logo" src="images/logo-white.png">
+    <p>DAYBREAK SINCE 2019</p>
     <div class="social">
       <img src="images/insta.png">
       <img src="images/youtube.png">
