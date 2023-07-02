@@ -278,7 +278,6 @@ input{
 .col{
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   padding-top: 20px;
   padding-bottom: 50px;
@@ -309,4 +308,94 @@ input{
   background-color: var(--black);
   border: none;
   margin-top: 20px;
+}
+
+/*CALENDAR PAGE*/
+#section-calendar-title h1{
+  margin-left: 4vw;
+  padding-top: 5vw;
+}
+#section-calendar-title img{
+  width: max(400px,45vw);
+}
+#event-list{
+  width: max(300px,40%);
+  margin: 0 2vw;
+}
+.event-card{
+  padding: 8px;
+  margin: 15px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.event-card p{
+  display: inline-block;
+  font-size: max(10px, 1vw);
+  font-family: 'Raleway', sans-serif;
+}
+.black-card{
+  border: solid var(--black);
+}
+.black-card p{
+  color: var(--black);
+}
+.white-card{
+  border: solid var(--white);
+}
+.white-card p{
+  color: var(--white);
+}
+
+/* BOARD PAGE */
+#section-board-title{
+  text-align: center;
+}
+#section-board-title h1{
+  font-size: max(45px,6vw);
+}
+#title-transition{
+  background: linear-gradient(
+    to top,
+    var(--purple) 0%,
+    var(--purple) 50%,
+    var(--black) 50%,
+    var(--black) 100%
+  );
+}
+#section-board{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 3vw;
+}
+#section-board img{
+  width: max(120px,20vw);
+  height: max(120px,20vw);
+  margin-top: 1vw;
+}
+.card-duo{
+  border: solid var(--white);
+  padding: 1.5vw;
+  margin: 2vw;
+  width: max(350px, 45vw);
+}
+.card-duo div{
+  display: flex;
+  justify-content: space-around;
+}
+.card-single div{
+  text-align: center;
+}
+.card-single{
+  border: solid var(--white);
+  padding: 1.5vw;
+  margin: 2vw;
+  width: max(150px, 22.5vw);
+}
+#section-board h2{
+  font-size: max(20px,2vw);
+}
+#section-board p{
+  font-size: max(16px,0.5vw);
 }
